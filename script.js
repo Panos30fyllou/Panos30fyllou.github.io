@@ -1,5 +1,6 @@
+document.getElementById("age").innerText = Math.abs(new Date(Date.now() - new Date(2000, 11, 16).getTime()).getUTCFullYear() - 1970) + " years old student from Greece,";
+
 $(document).ready(function(){
-    document.getElementById("age").innerText = "test";
     $(window).scroll(function(){
         // sticky navbar on scroll script
         if(this.scrollY > 20){
