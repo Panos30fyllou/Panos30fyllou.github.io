@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    document.getElementById("age").innerText = Math.abs(new Date(Date.now() - new Date(1982, 11, 4).getTime()).getUTCFullYear() - 1970);
+    document.getElementById("age").innerText = "test";
     $(window).scroll(function(){
         // sticky navbar on scroll script
         if(this.scrollY > 20){
